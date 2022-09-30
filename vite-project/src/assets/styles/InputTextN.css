@@ -1,0 +1,43 @@
+.nombreC{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.inputs{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+    font-family:  Times, serif;
+    font-size: 20px;
+    width: 80%;
+}
+.separador{
+    margin-top: 10px;
+    text-align: center;
+}
+
+label{
+    font-size: 18px;
+}
+
+.button{
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 30px;
+    width:300px ;
+    background-image: linear-gradient(135deg, #ed3bff 0, #c826ff 25%, #9c00ff 50%, #6600f4 75%, #0000ec 100%);
+    
+}
+
+.button:hover{
+    box-shadow: 0 9px 18px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+input{
+    font-size: 15px;
+}

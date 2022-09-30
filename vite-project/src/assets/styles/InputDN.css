@@ -1,0 +1,42 @@
+.InputDN{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+    font-family:  Times, serif;
+    font-size: 30px;
+    width: 80%;
+}
+
+.input_calendar{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+    font-family:  Times, serif;
+    font-size: 15px;
+    width: 80%;
+    
+}
+.separador{
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+  
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
